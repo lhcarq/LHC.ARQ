@@ -407,7 +407,7 @@ footer {
 #content img {
     width: auto; 
     height: auto;
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     -webkit-transition: opacity 1.5s ease-in-out;
@@ -422,7 +422,7 @@ footer {
     display: inline-block;
     width: auto;
     height: auto;
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 5; /* Keeps the link clickable over other elements */
