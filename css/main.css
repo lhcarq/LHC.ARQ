@@ -411,8 +411,7 @@ footer {
 
 .lang-selector a, 
 .lang-selector span {
-    font-size: 10px; 
-    line-height: 20px;
+    font-size: 15px; 
 }
 
 .lang-selector a {
@@ -423,7 +422,7 @@ footer {
 .lang-selector a:hover, 
 .lang-selector a.active {
     opacity: 1;
-    font-weight: normal; /* Or keep it normal to match your minimal style */
+    font-weight: normal; 
 }
 
 #content {
