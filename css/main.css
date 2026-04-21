@@ -344,18 +344,18 @@ header div p {
     line-height: 20px;
     margin: 0; 
     font-weight: 200;
-    -webkit-transition: opacity 1.5s ease-in-out;
-    -moz-transition: opacity 1.5s ease-in-out;
-    -ms-transition: opacity 1.5s ease-in-out;
-    -o-transition: opacity 1.5s ease-in-out;
-    transition: opacity 1.5s ease-in-out;
 }
 
 header {
     position: absolute;
     top: 0;
     left: 0;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
+    -webkit-transition: opacity 1.5s ease-in-out;
+    -moz-transition: opacity 1.5s ease-in-out;
+    -ms-transition: opacity 1.5s ease-in-out;
+    -o-transition: opacity 1.5s ease-in-out;
+    transition: opacity 1.5s ease-in-out;
 }
 
 header a {
