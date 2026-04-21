@@ -417,10 +417,6 @@ footer {
     margin-right: 20px;
 }
 
-.contacts a:hover {
-    font-weight: 100;
-}
-
 #content {
     position: absolute;
     width: auto;
