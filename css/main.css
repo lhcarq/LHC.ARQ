@@ -430,20 +430,26 @@ footer {
 
 .logo-hover {
     position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0; 
+    top: 0;   
+    left: 0;  
+    opacity: 0;
+    z-index: 2;
     transition: none !important; 
+}
+
+.logo-base {
+    position: relative;
+    z-index: 1;
 }
 
 .logo-link:hover .logo-base {
     opacity: 0 !important;
-    transition: 0s !important; 
+    transition: 0s !important;
 }
 
 .logo-link:hover .logo-hover {
     opacity: 1 !important;
-    transition: 0s !important; 
+    transition: 0s !important;
 }
 
 #content img.show {
