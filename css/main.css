@@ -428,34 +428,6 @@ footer {
     z-index: 5; 
 }
 
-.logo-hover {
-    position: absolute;
-    top: 0;   
-    left: 0;  
-    opacity: 0;
-    z-index: 2;
-    transition: none !important; 
-}
-
-.logo-base {
-    position: relative;
-    z-index: 1;
-}
-
-.logo-link:hover .logo-base {
-    opacity: 0 !important;
-    transition: 0s !important;
-}
-
-.logo-link:hover .logo-hover {
-    opacity: 1 !important;
-    transition: 0s !important;
-}
-
-#content img.show {
-    opacity: 1;
-}
-
 @media (max-width: auto) {
     body  {
         justify-content: flex-start;
