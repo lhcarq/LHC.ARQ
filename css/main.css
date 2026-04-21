@@ -407,14 +407,14 @@ footer {
 }
 
 .contacts {
-    margin: 20px 20px 0; 
+    margin: 20px 20px 0 0; 
 }
 
 .contacts a, 
 .contacts span {
     font-size: 15px;
     line-height: 20px;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .contacts a:hover {
