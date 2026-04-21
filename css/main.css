@@ -432,16 +432,18 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0 
-    pointer-events: none;
+    opacity: 0; 
+    transition: none !important; 
 }
 
 .logo-link:hover .logo-base {
     opacity: 0 !important;
+    transition: 0s !important; 
 }
 
 .logo-link:hover .logo-hover {
-    opacity: 1 
+    opacity: 1 !important;
+    transition: 0s !important; 
 }
 
 #content img.show {
