@@ -428,6 +428,14 @@ footer {
     z-index: 5; 
 }
 
+#content a img {
+    transition: filter 0.3s ease;
+}
+
+#content a:hover img {
+    filter: brightness(0) contrast(100%); 
+}
+
 @media (max-width: auto) {
     body  {
         justify-content: flex-start;
