@@ -333,10 +333,10 @@ header div p {
     font-weight: 200; 
 }
 
-footer {
+header {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    top: 0;
+    left: 0;
     padding-bottom: 20px; 
 }
 
