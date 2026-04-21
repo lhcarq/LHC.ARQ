@@ -436,7 +436,6 @@ footer {
     vertical-align: middle;
 }
 
-/* This stacks both images on top of each other */
 .logo-container img {
     position: absolute;
     top: 0;
